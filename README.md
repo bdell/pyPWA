@@ -1,4 +1,4 @@
 pyPWA
 =====
 
-A python toolkit for partial wave analysis
+WARNING THIS REPO IS OUTDATED.  PLEASE USE THE JLAB VERSION WHICH WILL BE MADE AVAILABLE SHORTLY.
