@@ -5,7 +5,7 @@ setup(
     version='0.5.0',
     author='Brandon DeMello',
     author_email='bdemello@jlab.org',
-    packages=['pythonPWA','pythonPWA.dataTypes','pythonPWA.fileHandlers','pythonPWA.model','pythonPWA.utilities','pythonPWA.test'],
+    packages=['pythonPWA','pythonPWA.dataTypes','pythonPWA.fileHandlers','pythonPWA.model','pythonPWA.utilities'],
     #scripts=['bin/pythonPWATest.py'],
     url='https://clas12svn.jlab.org/repos/users/bdemello/pythonPWA',
     #license='',
