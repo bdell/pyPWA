@@ -57,19 +57,12 @@ class likelihood(object):
     #This calculates only the sums in the right term
     def calcSigmaN(self,mass,eventNumber):
         reN=numpy.complex(0,0)
-<<<<<<< .mine
         for resonance1 in self.resonances:
             for resonance2 in self.resonances:
                 for wave1 in self.waves:
                     for wave2 in self.waves:
                         if len(self.productionAmplitudes)!=0:
                             reN+=self.productionAmplitudes[self.waves.index(wave1)]*numpy.conjugate(self.productionAmplitudes[self.waves.index(wave2)])*self.normint #need element indexing
-=======
-        for wave1 in self.waves:
-            for wave2 in self.waves:
-                if len(self.productionAmplitudes)!=0:
-                    reN+=self.productionAmplitudes[self.waves.index(wave1)]*numpy.conjugate(self.productionAmplitudes[self.waves.index(wave2)])*self.normint
->>>>>>> .r13342
         return reN                   
     
     #This multiplies Eta and the sums to make the entire N/right term                        
