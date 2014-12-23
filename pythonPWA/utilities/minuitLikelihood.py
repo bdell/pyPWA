@@ -31,7 +31,6 @@ class minuitLikelihood(object):
                  rawNormInt=None
                  ):
         
-#        self.resonances=resonances
         self.waves=waves
         self.productionAmplitudes=productionAmplitudes
         self.normint=normint
