@@ -1,4 +1,3 @@
-from pythonPWA.utilities.chunks import chunks
 from pythonPWA.utilities.likelihood import likelihood
 import numpy
 from math import log
